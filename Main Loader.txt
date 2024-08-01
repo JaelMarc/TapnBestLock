@@ -1,0 +1,5 @@
+if getgenv().Loader == "Legit" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JaelMarc/TapnBestLock/main/LEGIT%20MODE.txt"))()
+elseif getgenv().Loader == "Killbot" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JaelMarc/TapnBestLock/main/COMBAT%20BOT%20MODE.txt"))()
+end
